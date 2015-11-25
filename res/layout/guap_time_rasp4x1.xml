@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="#09C"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:minHeight="50dp"
+    android:id="@+id/main_layout">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contextClickable="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/time_guap_rasp4x1_timer"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFF"
+            android:layout_marginRight="10dp"
+            android:textSize="30sp"
+            android:layout_marginTop="-5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Нет загруженных данных"
+            android:id="@+id/time_guap_rasp4x1_info"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/time_guap_rasp4x1_timer"
+            android:textColor="#FFF"
+            android:layout_marginTop="-6dp"
+            android:textSize="16sp"
+            android:maxHeight="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24.11 12:20"
+            android:id="@+id/time_guap_rasp4x1_date"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ГУАП"
+            android:id="@+id/time_guap_rasp4x1_info2"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:layout_above="@+id/time_guap_rasp4x1_info"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="До начала"
+            android:id="@+id/time_guap_rasp4x1_end"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/time_guap_rasp4x1_timer"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="@drawable/rasl_less"
+    android:layout_margin="2dp">
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="▲"
+        android:id="@+id/rasp_less_up"
+        android:textSize="30sp"
+        android:maxHeight="38sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="8dp"
+        android:layout_toLeftOf="@+id/rasp_less_name"
+        android:layout_toStartOf="@+id/rasp_less_name"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ЛР"
+        android:id="@+id/rasp_less_type"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:textColor="#FF000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/rasp_less_name"
+        android:textSize="16sp"
+        android:paddingTop="0sp"
+        android:paddingBottom="0sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/rasp_less_type"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="left"
+        android:textColor="#FF000000" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rasp_less_lay"
+        android:layout_below="@+id/rasp_less_name"
+        android:layout_toRightOf="@+id/rasp_less_up"
+        android:layout_toEndOf="@+id/rasp_less_up"></LinearLayout>
+</RelativeLayout>

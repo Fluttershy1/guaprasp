@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Расписание ГУАП</string>
+
+    <string name="hello_world">Yay!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_clearbase">Отчистить кэш</string>
+    <string name="action_addstar">Избранное</string>
+    <string name="title_activity_see_rasp">Расписание</string>
+    <string name="tabText0">Группы</string>
+    <string name="tabText1">Преподаватели</string>
+    <string name="tabText2">Здания</string>
+    <string name="tabText3">Кабинеты</string>
+    <string name="tabText4">Сохранённые</string>
+    <string name="tabText5">Поиск</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="settings_separator">━━━━━━━━━━━━━━━━━━━━━━━━━━━</string>
+    <string name="settings_revers_up">Инвертировать чёт\\нечёт недели</string>
+    <string name="settings_show_group">Показывать группы</string>
+    <string name="settings_show_teacher">Показывать преподавателя</string>
+    <string name="settings_show_place">Показывать кабинет</string>
+    <string name="settings_auto_open">Автоматически открывать последнее расписание</string>
+    <string name="settings_show_automid">Показывать расписание на обе недели</string>
+    <string name="time_guap_rasp4x1_defgroup"></string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>
